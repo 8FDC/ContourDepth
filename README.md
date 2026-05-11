@@ -35,7 +35,7 @@ Training entry: `train.py`. Modify the corresponding training parameters in `con
 
 ## Loss Functions Based on Scene-Structure Constraints
 
-Composed of three parts: structural consistency, variance constraint, and ordering constraint. Let the mean predicted/ground-truth depth on the $i$-th contour be $\bar{\hat{d}}_i$ and $\bar{d}_i$, and the set of pixels inside the contour be $\Omega_i$:
+Composed of three parts: structural consistency, variance constraint, and ordering constraint. 
 
 **(a) Struct Loss: Structural Consistency**
 
